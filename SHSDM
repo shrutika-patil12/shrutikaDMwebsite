@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing: Unlock Your Online Potential</title>
+    <style>
+        /* Basic CSS Styling - Customize as needed */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        header {
+            background: #35424a;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 3px solid #e8491d;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #hero {
+            background: url('digital-marketing-hero.jpg') no-repeat center/cover; /* Replace with your image */
+            color: #050005;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        section {
+            padding: 20px 0;
+            background: #e6e7edd4;
+        }
+
+        #what-is-dm .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #what-is-dm .container div {
+            flex: 1;
+            padding: 20px;
+        }
+
+        #what-is-dm .container img {
+            width: 100%;
+        }
+
+        .job-card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+        .job-card {
+          width: 30%;
+          margin-bottom: 20px;
+          padding: 15px;
+          border: 1px solid #628dea;
+          border-radius: 5px;
+          text-align: center;
+        }
+
+        .job-card img {
+          width: 80%;
+          max-height: 150px;
+          object-fit: contain;
+          margin-bottom: 10px;
+        }
+
+        .useful-link-container {
+          text-align: center;
+        }
+
+        .useful-link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a8bbc9;
+            color: #1ea2ac;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #35424a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Responsive adjustments */
+        @media(max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header #branding,
+            header nav {
+                float: none;
+                text-align: center;
+            }
+
+            header nav li {
+                float: none;
+                display: block;
+            }
+
+            #what-is-dm .container {
+                flex-direction: column;
+            }
+
+            #what-is-dm .container div {
+                width: 100%;
+            }
+          .job-card {
+              width: 90%; /* Full width on small screens */
+              margin-bottom: 20px;
+          }
+
+        }
+
+        /* Add more CSS for aesthetic enhancements */
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Digital</span> Marketing</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#what-is-dm">What is DM?</a></li>
+                    <li><a href="#job-opportunities">Job Opportunities</a></li>
+                    <li><a href="#useful-link">Useful Link</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Digital Marketing: Unlock Your Online Potential</h1>
+            <p>Reach new customers, build your brand, and drive measurable results in the digital age.</p>
+        </div>
+    </section>
+
+    <section id="what-is-dm">
+        <div class="container">
+            <div>
+                <h1>Decoding Digital Marketing</h1>
+                <p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and websites to connect with current and prospective customers.</p>
+                <ul>
+                    <li><i style="color:#e8491d;"></i>Search Engine Optimization (SEO)</li>
+                    <li>Search Engine Marketing (SEM/PPC)</li>
+                    <li>Social Media Marketing (SMM)</li>
+                    <li>Email Marketing</li>
+                    <li>Content Marketing</li>
+                    <li>Affiliate Marketing</li>
+                    <li>Analytics & Data</li>
+                </ul>
+            </div>
+            <div>
+                <img src="C:\Users\USER\Downloads\dm2.webp" alt="Digital Marketing Concept">
+            </div>
+        </div>
+    </section>
+
+    <section id="job-opportunities">
+        <div class="container">
+            <h2>Explore Your Future: Career Paths in Digital Marketing</h2>
+              <div class="job-card-container">
+                <div class="job-card">
+                  <img src="C:\Users\USER\Downloads\seo.jpeg" alt="SEO Specialist">
+                  <h3>SEO Specialist</h3>
+                  <p>Optimize websites to rank higher in search results and drive organic traffic.</p>
+</div>
+
+                <div class="job-card">
+                  <img src="C:\Users\USER\Downloads\sem.jpeg" alt="SEM/PPC Specialist">
+                  <h3>SEM/PPC Specialist</h3>
+                  <p>Manage paid advertising campaigns on Google Ads and social media platforms.</p>
+                </div>
+
+                 <div class="job-card">
+                  <img src="C:\Users\USER\Downloads\smm7.jpg" alt="Social Media Manager">
+                  <h3>Social Media Manager</h3>
+                  <p>Develop and implement social media strategies to build brand awareness and engagement.</p>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="useful-link">
+        <div class="container useful-link-container">
+            <h2>Level Up Your Skills: Explore Further</h2>
+            <p>Learn Digital Marketing with Coursera: Free courses and certifications to boost your skills.</p>
+            <a href="https://www.coursera.org/courses?query=digital%20marketing" class="useful-link-button" target="_blank">Visit Coursera</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Shrutika Ravindra Patil</p>
+            <p><a href="mailto:your.email@example.com">shrutikapatil@gmail.com</a></p>
+            <p>Phone:+91 7758803032</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>shrutika &copy;SHS 2018 All rights reserved by SHS
+        </p>
+    </footer>
+
+</body>
+</html> 
